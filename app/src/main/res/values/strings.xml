@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Baksoin</string>
+
+    <string name="login_greet">Selamat Datang</string>
+    <string name="login_subgreet">Masuk ke akunmu untuk melanjutkan</string>
+    <string name="login_username">Username atau Email</string>
+    <string name="login_usernamehint">masirsyaad</string>
+    <string name="login_password">Password</string>
+    <string name="login_passwordhint">*******</string>
+    <string name="login_forgot">Lupa password ?</string>
+    <string name="login_button">Masuk</string>
+    <string name="login_register">Belum punya akun? </string>
+    <string name="login_subregister">Daftar disini</string>
+
+    <string name="register_greet">Buat Akun</string>
+    <string name="register_subgreet">Lengkapi data dibawah ini dengan benar</string>
+    <string name="register_name">Nama Lengkap</string>
+    <string name="register_namehint">Muhammad Iqbal Najih</string>
+    <string name="register_email">Email</string>
+    <string name="register_emailconfirm">Konfirmasi Email</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_required">Saya telah membaca dan setuju dengan</string>
+    <string name="register_aggrement">syarat dan ketentuan</string>
+    <string name="register_button">Daftar</string>
+    <string name="register_account">Sudah punya akun?</string>
+    <string name="register_login">Masuk disini</string>
+
+</resources>
