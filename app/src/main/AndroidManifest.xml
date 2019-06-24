@@ -16,7 +16,8 @@
         <activity
             android:name=".Activity.Login"
             android:theme="@style/AppTheme.noActionBar"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".Activity.Splash"
             android:theme="@style/AppTheme.noActionBar">

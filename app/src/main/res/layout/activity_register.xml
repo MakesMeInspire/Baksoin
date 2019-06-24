@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Register"
-    android:background="@color/colorWhite">
+    android:background="@color/colorWhite"
+    tools:context=".Activity.Register">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,17 +23,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textExtraLarge"
-                android:textColor="@color/colorBlack"
                 android:fontFamily="@font/nunito"
-                android:text="@string/register_greet"/>
+                android:text="@string/register_greet"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/textExtraLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/textMedium"
                 android:fontFamily="@font/nunito"
-                android:text="@string/register_subgreet"/>
+                android:text="@string/register_subgreet"
+                android:textSize="@dimen/textMedium" />
 
         </LinearLayout>
 
@@ -46,10 +45,10 @@
             android:orientation="vertical">
             <!-- Nama Lengkap -->
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -59,10 +58,10 @@
                     android:textSize="@dimen/textSmall" />
 
                 <EditText
-                    android:layout_marginTop="5dp"
                     android:id="@+id/et_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/edittext_rounded"
                     android:ems="10"
                     android:fontFamily="@font/nunito"
@@ -76,11 +75,11 @@
             </LinearLayout>
             <!-- Email -->
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -90,10 +89,10 @@
                     android:textSize="@dimen/textSmall" />
 
                 <EditText
-                    android:layout_marginTop="5dp"
                     android:id="@+id/editText2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/edittext_rounded"
                     android:ems="10"
                     android:fontFamily="@font/nunito"
@@ -103,11 +102,11 @@
             </LinearLayout>
             <!-- Email Konfirmasi -->
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -117,9 +116,9 @@
                     android:textSize="@dimen/textSmall" />
 
                 <EditText
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/edittext_rounded"
                     android:ems="10"
                     android:fontFamily="@font/nunito"
@@ -129,23 +128,23 @@
             </LinearLayout>
             <!-- Username -->
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
-                    android:text="@string/register_password"
+                    android:text="@string/register_username"
                     android:textSize="@dimen/textSmall" />
 
                 <EditText
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/edittext_rounded"
                     android:ems="10"
                     android:fontFamily="@font/nunito"
@@ -155,27 +154,27 @@
             </LinearLayout>
             <!-- Password -->
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
-                    android:text="@string/register_emailconfirm"
+                    android:text="@string/register_password"
                     android:textSize="@dimen/textSmall" />
 
                 <EditText
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/edittext_rounded"
                     android:ems="10"
                     android:fontFamily="@font/nunito"
-                    android:inputType="textEmailAddress"
+                    android:inputType="textPassword"
                     android:padding="15dp"
                     android:textSize="@dimen/textMedium" />
             </LinearLayout>
@@ -183,79 +182,93 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/textSmall"
-                    android:fontFamily="@font/nunito"
-                    android:text="@string/register_required"/>
-                <TextView
+
+                <LinearLayout
                     android:layout_marginStart="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textSmall"
-                    android:fontFamily="@font/nunito"
-                    android:text="@string/register_aggrement"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_aggrement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito"
+                        android:text="@string/register_required"
+                        android:textSize="@dimen/textSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito"
+                        android:text="@string/register_aggrement"
+                        android:textSize="@dimen/textSmall"
+                        android:textColor="@color/colorPrimaryDark"/>
+                </LinearLayout>
+
             </LinearLayout>
             <!-- Button Register -->
             <android.support.v7.widget.CardView
-                android:layout_margin="5dp"
-                android:clickable="true"
-                android:focusable="true"
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="@dimen/rounded_button">
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="@dimen/rounded_button"
+                app:cardElevation="3dp">
+
                 <TextView
-                    android:background="@drawable/button_rounded"
-                    android:padding="15dp"
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/button_rounded"
                     android:fontFamily="@font/nunito"
+                    android:gravity="center"
+                    android:padding="15dp"
                     android:text="@string/register_button"
+                    android:textAllCaps="false"
                     android:textColor="@color/colorWhite"
                     android:textSize="@dimen/textMedium"
-                    android:textAllCaps="false"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
             </android.support.v7.widget.CardView>
         </LinearLayout>
         <!-- Has Account -->
         <LinearLayout
-            android:layout_marginTop="35dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="15dp"
             android:gravity="center"
-            android:layout_marginBottom="15dp">
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="marquee"
+                android:fontFamily="@font/nunito"
                 android:singleLine="true"
                 android:text="@string/register_account"
-                android:textSize="@dimen/textMedium"
-                android:fontFamily="@font/nunito"/>
+                android:textSize="@dimen/textMedium" />
+
             <TextView
-                android:layout_marginLeft="5dp"
                 android:id="@+id/tv_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:ellipsize="marquee"
+                android:fontFamily="@font/nunito"
                 android:singleLine="true"
                 android:text="@string/register_login"
-                android:textSize="@dimen/textMedium"
-                android:fontFamily="@font/nunito"
-                android:textColor="@color/colorPrimaryDark"/>
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/textMedium" />
         </LinearLayout>
     </LinearLayout>
 
