@@ -2,11 +2,12 @@ package com.senjacreative.baksoin.Activity
 
 import android.content.Intent
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.view.Window
 import android.view.WindowManager
+import com.astritveliu.boom.Boom
 import com.senjacreative.baksoin.R
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -28,5 +29,8 @@ class Login : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        Boom(cv_login)
+
     }
 }

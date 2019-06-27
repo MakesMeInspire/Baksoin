@@ -216,8 +216,8 @@
 
             </LinearLayout>
             <!-- Button Register -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/button1"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -238,7 +238,7 @@
                     android:textColor="@color/colorWhite"
                     android:textSize="@dimen/textMedium"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
         <!-- Has Account -->
         <LinearLayout
